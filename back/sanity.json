@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "specTest"
-  },
   "api": {
     "projectId": "rr5531rn",
     "dataset": "production"
+  },
+  "project": {
+    "name": "specTest"
   },
   "plugins": [
     "@sanity/base",
