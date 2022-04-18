@@ -101,15 +101,6 @@ const CreatePin = ({ user }) => {
                 <div className="flex flex-col items-center justify-center h-full">
                   <div className="flex flex-col justify-center items-center">
                   <div className="absolute top-0 z-1 right-0 p-2">
-                    <button
-                      type="button"
-                      className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
-                      onClick={goBack}
-                    >
-                      <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
-                      </svg>
-                    </button>
                   </div>
                     <p className="font-bold text-2xl">
                       <AiOutlineCloudUpload />
@@ -197,11 +188,18 @@ const CreatePin = ({ user }) => {
                 ))}
               </select>
             </div>
-            <div className="flex justify-end items-end mt-5">
-              <button
+            <div className=" flex justify-between items-end mt-5">
+            <button 
+                type="button"
+                onClick={goBack}
+                className="bg-pink-500 text-white font-bold p-2 rounded-full w-28 outline-none"
+              >
+                Cancel
+              </button>
+              <button 
                 type="button"
                 onClick={savePin}
-                className="bg-red-500 text-white font-bold p-2 rounded-full w-28 outline-none"
+                className="bg-pink-500 text-white font-bold p-2 rounded-full w-28 outline-none"
               >
                 Save Pin
               </button>
