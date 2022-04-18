@@ -8,6 +8,6 @@ Live deployment: https://spec-trum.netlify.app
 
 To Run for local deployment:
 
-gitpod /workspace/Spectrum/back (final) $ npm start
+PS C:\Users\Admin\Desktop\Spec_trum\back> npm run
 
-gitpod /workspace/Spectrum/front (final) $ npm start
+PS C:\Users\Admin\Desktop\Spec_trum\front> npm run
